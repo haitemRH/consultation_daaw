@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+.A{
+    padding: 15px;
+    background-color: #50a960;
+    margin-left: 20px;
+    margin-top: 3px;
+    border-radius: 10px;
+}
+
+.B{
+    padding: 12px;
+    background-color: #d9ece0;
+    margin-left: 30px;
+    margin-top: 3px;
+    border-radius: 10px;
+    height: 40px;
+}
+.C{
+    padding: 10px;
+    background-color: #f5f5f5;
+    margin-left: 40px;
+    margin-top: 3px;
+    border-radius: 10px;
+}
+.D{
+    padding: 10px;
+    background-color: lightslategrey;
+    margin-left: 50px;
+    margin-top: 3px;
+    border-radius: 10px;
+}
+/* .E{
+    padding: 10px;
+    background-color: lightslategrey;
+    margin-left: 60px;
+    margin-top: 3px;
+    border-radius: 10px;
+} */
+.D1,.D2,.D3,.D4,.D5,.D6,.D7,.D8,.D9,.D10,.D11,.D12,.D13,.D14,.D15,.D16,.D17,.D18,.D19,.D20,.D21,.D22,.D23,
+.D50,.D51,.D52,.D53,.D54,.D55,.D56,.D57,.D58,.D59,.D60,.D61,.D62,.D63,.D64,.D65,.D66,.D67,.D68,.D69,.D70,.D71,
+.D72,.D73,.D74,.D74,.D76,.D77,.D78,.D79{
+    display: none;
+}
+
+.A:hover{
+    background-color: #3f864c;
+}
+.B:hover{
+    background-color: #b3bbb6;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+
+
+ .container{
+     color: #eee;
+    text-shadow: 2px 2px 11px black;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    /* margin-top: 50px; */
+    /* margin-bottom: 30px; */
+    /*background: #400040;*/
+    border-radius: 3px;
+    box-shadow: 0 2px 4px #0003;
+   
+}
+ .module{
+    margin: calc(8% /8);
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 3px 3px #888888;
+	height:300px;
+	width:23%;
+	padding:5px;
+	float:left;
+	text-align: center;
+  
+}
+ .list_ce_module{
+    display: none;
+    /* margin-top: 20px; */
+}
+ .list_ce_module .nom_ce_module{
+    /* border: 2px solid #fff; */
+    background-color: #13B1B1;
+    padding: 20px;
+    color: #FFF;
+    width: 100%;
+}
+
+ .module:hover{
+    transform:  scale(1.09,1.09);
+    transition-duration: 1s;
+    transform-box: unset;
+    
+    }
+
+ .module .nom_module{
+    background-color:#13B1B1;
+    height: 40%;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: relative;
+    z-index: 20;
+    text-align: center;
+}
+
+ .module .nom_module button{
+    position: relative;
+    z-index: 15;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    transform:translateY(10px);
+}
+
+.module  .image{
+    width:100%;
+    margin: auto;
+    height: 60%;
+   text-align: center;
+   opacity: 0.8;
+    
+}
+
+img{
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    -webkit-background-size: cover;  
+    -moz-background-size: cover;  
+    background-size: cover;
+} 
+/* end content */
+
+
+
+
+  

@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+}
+header{
+    height: 150px;
+    width: 100%;
+    background-image: url(../pictures/ntic.gif);
+    border-bottom:4px solid #3490db;
+    margin-bottom: 30px;
+}
+
+
+.container-login{width: 90%; margin: auto;}
+
+.container-login h1{
+    color: rgb(60, 97, 199);
+    font-size: 60px;
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    /* box-shadow: 2px 5px 47px; */
+}
+
+.connexion h2{
+    padding-bottom: 30px;
+   
+ }
+
+.div-nom,.div-password{
+    display: inline-block;
+    width: 100%;
+
+    
+}
+.div-nom label,.div-password label{
+    float: left;
+    width: 35%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    /* box-shadow: 2px 2px #3490db; */
+}
+.div-password input,.div-nom input{
+    width: 60%;
+    float: left;
+    /* margin: auto; */
+    text-align: left;
+    vertical-align: middle;
+}
+input:focus{
+    box-shadow: 2px 2px 2px #3490db;
+    border: none;
+    outline: none;
+}
+
+.connexion{
+    text-align: center;
+   
+    height: 100%;
+    width: 90%;
+    display: inline-block;
+    margin: auto;
+    padding: 40px;
+}
+.connexion h2,.connexion label,.connexion input{
+    /* padding: 40px; */
+    color: #163dbe;
+    margin: auto;
+    /* width: 80%; */
+    
+}
+
+
+.connexion input{
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    width: 300px;
+    margin: 10px 10px 30px 10px;
+    /* border-radius: 20px; */
+    border: none;
+    height: 25px;
+    border-bottom: 2px solid #39b19d;
+}
+.connexion label{
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    width: 35%;
+    margin: 20px;
+    /* text-align: left; */
+}
+
+.connexion button{
+    background-color: #CCC;
+    border-radius: 25px;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #39b19d;
+
+}
+.connexion button:hover{box-shadow: 2px 2px 20px #3490db;}
+
+
+
+
+footer{
+    height: 150px;
+    /* width: 100%; */
+    background-color:#424242;
+    color: #CCC;
+    font-size: 23px;
+    padding: 25px;
+    text-align: left;
+    /* position: relative; */
+    margin-top: 50px;
+    line-height: 2em;
+}
+footer a {
+    text-decoration: none;
+    color: #11cae2e0;
+}
+
+
+
+
+
+
+@media (min-width:992px) {
+   
+
+    /* .div-nom label,.div-password label{
+        width: 40%;
+        font-size: 20px;
+        font-weight: bold;
+    } */
+    /* .div-password input,.div-nom input{
+        width: 60%;
+        vertical-align: middle;
+    } */
+}
+
+@media (max-width:991px) {
+
+   .container-login h1{
+    color: rgb(60, 97, 199);
+    font-size: 50px;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    /* box-shadow: 2px 5px 47px; */
+}
+    
+}
+/* @media (min-width:668px) {
+    header h1{
+        font-size: 40px;
+        padding: 5px;
+    }
+    .container-login{ width: 100%;}
+} */
+
+@media (max-width:667px){
+    .container-login h1{
+        font-size: 35px;
+    }
+    .connexion h2{
+        padding-bottom: 20px;
+    }
+    .div-password input,.div-nom input{
+        width: 60%;
+        margin: auto;
+        /* text-align: center; */
+        float: none;
+        /* vertical-align: middle; */
+    }
+  
+    .connexion label{
+        text-align: center;
+       
+    }
+    /* .div-password,.div-nom{text-align: center;
+    } */
+    .container-login{ width: 100%;}
+}
+
+@media (max-width:667px){
+.connexion{
+    width: 100%;
+}
+.connexion label{
+    padding: 4px 6px;
+    /* margin-bottom: 15px; */
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    font-size: 18px;
+    }
+}
